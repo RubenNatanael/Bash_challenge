@@ -1,0 +1,22 @@
+          Summary Report
+ ----------------------------------
+
+ [*]Date of analysis:
+      -Vi 29 decembrie 2023
+ [*]Log file name:
+      -/var/log/syslog
+ [*]Total line processed:
+      -47200
+ [*]Total error count:
+      -34
+ [*]Top 5 error message:
+      2 Dec 18 17:10:29 ruben-VirtualBox gsd-sharing[1044]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+      2 Dec 18 17:10:28 ruben-VirtualBox gnome-session-binary[811]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+      2 Dec 18 17:10:28 ruben-VirtualBox gnome-session[811]: gnome-session-binary[811]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+      1 Dec 18 17:10:38 ruben-VirtualBox gnome-shell[2176]: Errors from xkbcomp are not fatal to the X server
+      1 Dec 18 17:10:37 ruben-VirtualBox gsd-screensaver[1077]: Error releasing name org.freedesktop.ScreenSaver: The connection is closed
+ [*]List of criyical events:
+        1037	Dec 18 17:10:28 ruben-VirtualBox gnome-session[811]: gnome-session-binary[811]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+  1038	Dec 18 17:10:28 ruben-VirtualBox gnome-session[811]: gnome-session-binary[811]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+  1039	Dec 18 17:10:28 ruben-VirtualBox gnome-session-binary[811]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+  1040	Dec 18 17:10:28 ruben-VirtualBox gnome-session-binary[811]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
